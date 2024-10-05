@@ -1,12 +1,10 @@
 import _ from 'lodash';
 
+const button = document.getElementById("button");
+
 function component() {
-    const element = document.createElement('div');
-  
-   // Lodash, now imported by this script
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  
-    return element;
+    if (button.style.color != 'red'); {
+      button.style.color = 'red
+    } else 
+      alert('Button is already red');
   }
-  
-  document.body.appendChild(component());
